@@ -82,5 +82,3 @@ schedule()
   .everyThirtyMinutes()
   .run();
 ```
-
-### Notes
