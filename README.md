@@ -12,7 +12,7 @@ Schedule()
   .at('13:00')
   .run();
 
-Schedule().command('npm run start-bot').everyThirtyMinutes().run();
+Schedule().command('npm -v').everyThirtyMinutes().run();
 ```
 
 ### Schedule Frequencies
