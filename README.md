@@ -12,7 +12,7 @@ Schedule()
   .at('13:00')
   .run();
 
-Schedule().command('npm run clean_trash').everyThirtyMinutes().run();
+Schedule().command('npm run start-bot').everyThirtyMinutes().run();
 ```
 
 ### Schedule Frequencies
