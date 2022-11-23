@@ -20,9 +20,17 @@ Schedule().command('npm -v').everyThirtyMinutes().run();
 | Method                      | Description                                      |
 | --------------------------- | ------------------------------------------------ |
 | `.cron('* * * * *');`       | Run the task on a custom Cron schedule           |
+| `.everyTenSecond();`        | Run the task every minute                        |
+| `.everyThirtySecond();`     | Run the task every minute                        |
+| `.everyFortySecond();`      | Run the task every minute                        |
 | `.everyMinute();`           | Run the task every minute                        |
-| `.everyFiveMinutes();`      | Run the task every five minutes                  |
-| `.everyTenMinutes();`       | Run the task every ten minutes                   |
+| `.everyTwoMinutes();`       | Run the task every minute                        |
+| `.everyThreeMinutes();`     | Run the task every minute                        |
+| `.everyFourMinutes();`      | Run the task every minute                        |
+| `.everyFiveMinutes();`      | Run the task every minute                        |
+| `.everyTenMinutes();`       | Run the task every minute                        |
+| `.everyThirtyMinutes();`    | Run the task every minute                        |
+| `.everyFourtyFiveMinutes();`| Run the task every minute                        |
 | `.everyFifteenMinutes();`   | Run the task every fifteen minutes               |
 | `.everyThirtyMinutes();`    | Run the task every thirty minutes                |
 | `.everyFortyFiveMinutes();` | Run the task every forty five minutes            |
