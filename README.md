@@ -20,20 +20,18 @@ Schedule().command('npm -v').everyThirtyMinutes().run();
 | Method                      | Description                                      |
 | --------------------------- | ------------------------------------------------ |
 | `.cron('* * * * *');`       | Run the task on a custom Cron schedule           |
-| `.everyTenSecond();`        | Run the task every minute                        |
-| `.everyThirtySecond();`     | Run the task every minute                        |
-| `.everyFortySecond();`      | Run the task every minute                        |
+| `.everyTenSecond();`        | Run the task every ten second                    |
+| `.everyThirtySecond();`     | Run the task every thirty second                 |
+| `.everyFortySecond();`      | Run the task every forty second                  |
 | `.everyMinute();`           | Run the task every minute                        |
-| `.everyTwoMinutes();`       | Run the task every minute                        |
-| `.everyThreeMinutes();`     | Run the task every minute                        |
-| `.everyFourMinutes();`      | Run the task every minute                        |
-| `.everyFiveMinutes();`      | Run the task every minute                        |
-| `.everyTenMinutes();`       | Run the task every minute                        |
-| `.everyThirtyMinutes();`    | Run the task every minute                        |
-| `.everyFourtyFiveMinutes();`| Run the task every minute                        |
-| `.everyFifteenMinutes();`   | Run the task every fifteen minutes               |
-| `.everyThirtyMinutes();`    | Run the task every thirty minutes                |
-| `.everyFortyFiveMinutes();` | Run the task every forty five minutes            |
+| `.everyTwoMinutes();`       | Run the task every 2 minute                      |
+| `.everyThreeMinutes();`     | Run the task every 3 minute                      |
+| `.everyFourMinutes();`      | Run the task every 4 minute                      |
+| `.everyFiveMinutes();`      | Run the task every 5 minute                      |
+| `.everyTenMinutes();`       | Run the task every 10 minute                     |
+| `.everyThirtyMinutes();`    | Run the task every 30 minute                     |
+| `.everyFourtyFiveMinutes();`| Run the task every 45 minute                     |
+| `.everyFifteenMinutes();`   | Run the task every 50 minutes                    |
 | `.hourly();`                | Run the task every hour                          |
 | `.hourlyAt(17);`            | Run the task every hour at 17 mins past the hour |
 | `.daily();`                 | Run the task every day at midnight               |
